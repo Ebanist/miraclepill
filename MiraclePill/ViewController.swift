@@ -15,6 +15,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     @IBOutlet weak var countryText: UILabel!
     @IBOutlet weak var countryEnterField: UITextField!
+    @IBOutlet weak var zipcodeText: UILabel!
+    @IBOutlet weak var zipcodeEnterField: UITextField!
     
     @IBOutlet weak var buyNowBtn: UIButton!
     
@@ -37,6 +39,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         countryText.isHidden = true
         countryEnterField.isHidden = true
+        zipcodeText.isHidden = true
+        zipcodeEnterField.isHidden = true
         buyNowBtn.isHidden = true
         
     }
@@ -62,6 +66,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         countryText.isHidden = false
         countryEnterField.isHidden = false
+        zipcodeText.isHidden = false
+        zipcodeEnterField.isHidden = false
         buyNowBtn.isHidden = false
     }
 
